@@ -1,0 +1,121 @@
+/********************
+Common Style Css
+*********************/
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight:400;
+}
+h1,h2{
+    font-weight: 900;
+    line-height: 1em;
+}
+h2{
+    color:#502314;
+    font-size: 60px;
+}
+h3,h4,h5,h6{
+    font-weight: 700;
+    line-height: 1.3em;
+}
+h3{
+    color:#502314;
+    font-size: 25px;
+}
+h4{
+    color:#502314;
+    font-size: 25px;
+    font-weight: 500;
+}
+h6{
+
+    color:#502314;
+    font-size: 25px;
+}
+p{
+    font-weight: 400;
+    line-height: 1.5em;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.btn.btn-info{
+    background: #d62300;
+    border: 1px solid #d62300;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 35px;
+}
+.bg-info{
+    background: #f5ebdc !important;
+}
+/***********************
+header Area style
+**************************/
+#main-menu nav{
+    background: #ebe2d3;
+    font-weight: 500;
+}
+#main-menu nav li{
+    margin-left: 15px;
+}
+/* padding top for some section */
+#about, #work, #service, #contact{
+    padding-top: 110px;
+}
+#main-menu a.active{
+    color: #d62300;
+}
+/*****************
+Slider Area side
+******************/
+#slider{
+    padding-top: 88px;
+}
+/*****************
+Contact area style
+******************/
+#contact{
+    background: url(img/map.jpg);
+}
+/*****************
+Footer style
+******************/
+#footer form .btn.btn-info{
+border-radius: 0;
+}
+#footer ul li a{
+    color: #262626;
+    font-weight:500 ;
+    text-decoration: none;
+}
+#footer .social li{
+    display: inline-block;
+    margin-right: 15px;
+}
+/*****************
+Responsive style
+******************/
+@media only screen and(max-width:600px){
+    #main-menu img{
+        width: 200px;
+    }
+    #slider{
+        padding-top: 65px;
+    }
+    #about, #work, #service, #contact{
+        padding-top: 35px;
+    }
+    h2{
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    h4{
+        font-size: 20px;
+
+    }
+    h6{
+
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,23 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+}
+.form-login{
+    background: rgba(236, 240, 241, .35);
+    border-radius: 10px;
+    max-width: 450px;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+}
+.btn-primary{
+    background:brown ;
+    border:0;
+}
+.btn-primary:hover{
+    background:rgba(245, 46, 46, .30) ;
+    border:0;
+}

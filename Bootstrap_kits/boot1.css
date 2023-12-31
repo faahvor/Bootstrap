@@ -1,0 +1,12 @@
+img{
+max-width: 100%;
+}
+.row{
+    height: 250px;
+    border-bottom: 5px solid #262626;
+    margin-top: 25px;
+}
+.bg-light{
+    background-color: #ff9f45 !important;
+    padding: 25px;
+}
